@@ -1,0 +1,32 @@
+li, footer, h1, body, section, div, article {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+section {
+    height: auto;
+}
+
+#nav-list {
+   list-style: none; 
+   text-align: center;
+}
+
+#nav-list li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#project-grid {
+    height: auto;
+    margin: 30px;
+    padding: 15px;
+}
+
+#project-grid article {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    max-width: 250px;
+}
