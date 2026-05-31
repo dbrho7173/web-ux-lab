@@ -1,32 +1,126 @@
-li, footer, h1, body, section, div, article {
-    border: 2px solid black;
-    border-radius: 5px;
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    background-color: hsl(187, 74%, 95%);
 }
 
-section {
-    height: auto;
+#main-nav {
+    background-color: hsl(48, 100%, 91%);
+    border: 2px dashed hsl(39, 100%, 66%);
+    border-radius: 15px;
+    text-align: center;
 }
-
-#nav-list {
-   list-style: none; 
-   text-align: center;
-}
-
-#nav-list li {
+#main-nav li {
+    list-style-type: none;
     display: inline-block;
-    padding: 10px;
-    margin-right: 20px;
+    margin: 0 20px 0 20px;
 }
 
-#project-grid {
-    height: auto;
-    margin: 30px;
+#introduction {
+    background-color: hsl(48, 100%, 96%);
+    border: 2px solid hwb(39 69% 0%);
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
     padding: 15px;
 }
-
-#project-grid article {
+#introduction article {
     display: inline-block;
-    padding: 10px;
-    margin-right: 5px;
-    max-width: 250px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
 }
+
+#pfp {
+    border-radius: 50%;
+    border: 2px dashed hsl(0, 100%, 87%);
+}
+#pfp img {
+    border-radius: 50%;
+    margin: 2px;
+}
+
+#bio {
+    background-color: hsl(48, 100%, 96%);
+    text-align: center;
+    border-radius: 15px;
+    width: 500px;
+    margin-left: 70px;
+}
+#name {
+    font-size: 40px;
+    margin: 10px;
+}
+#role {
+    background-color: hsl(0, 100%, 94%);
+    width: 300px;
+    padding: 10px;
+}
+
+#skills {
+    background-color: hsl(0, 57%, 97%);
+    border: 2px solid hwb(39 69% 0%);
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 7px;
+}
+#skills-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+#skills-list li {
+    border: 2px dashed hsl(0, 57%, 97%);
+    border-radius: 15px;
+    background-color: hsl(0, 100%, 94%);
+    width: 100px;
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+    display: inline-block;
+}
+
+#projects {
+    background-color: hsl(48, 100%, 96%);
+    border: 2px solid hwb(39 69% 0%);
+    text-align: left;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 7px;
+}
+#projects h3 {
+    text-align: center;
+}
+#projects article {
+    border: 2px solid hwb(39 69% 0%);
+    border-radius: 15px;
+    margin: 10px;
+}
+#projects article div {
+    display: inline-block;
+    height: 50px;
+}
+.project-title {
+    width: 20%;
+    border-right: 2px solid hwb(39 69% 0%);
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+}
+.project-description {
+    width: 60%;
+}
+.project-link {
+    width: 15%;
+    border-radius: 15px;
+    text-align: center;
+}
+.project-link a{
+    display: inline-block;
+    width: 100px;
+    border: 2px solid hwb(39 69% 0%);
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
