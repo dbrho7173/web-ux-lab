@@ -65,5 +65,18 @@
             </div>
         </article>
     </section>
+    <section id="contact">
+        <h3>CONTACT</h3>
+        <p>A way to reach me if you want to get in touch! Please fill out the form below:</p>
+        <form action="submit_form.php" method="post" id="contact-form" target="_blank">
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
 </body>
 </html>
